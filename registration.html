@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+
+        <script type="text/javascript" src="val.js"></script> 
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.css">
+		<script type="text/javascript" src="val.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+ 
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script>
+
+		<!-- Website CSS style -->
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<!-- Website Font style -->
+	    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+
+
+	</head>
+	<body>
+		<div class="container-fluid">
+       <div class="row main">
+
+</div>
+</div>
+
+<div class="main-login main-center">
+					<form class="form-horizontal" method="post" data-toggle="validator" action="db.php">
+						
+				<div class="form-group">
+<div class="col-md-10"><class="title" >Registration Form</h1>
+<div>
+<br>
+
+							<div class="cols-md-10">
+								<div class="input-group">
+
+									<input type="text" class="form-control" name="user_name" id="user_name"  placeholder="Username"/>
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+<br>
+
+						<div class="form-group">
+
+							<div class="cols-md-4">
+								<div class="input-group">
+
+									<input type="text" class="form-control" name="email" id="email"  placeholder="Email address"/>
+									<span class="input-group-addon"><i class="fa fa-envelope fa" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+<br>
+
+						<div class="form-group">
+
+							<div class="cols-sm-10">
+								<div class="input-group">
+
+									<input type="password" class="form-control" name="password" id="password"  placeholder="Password"/>
+									<span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+<br>
+
+						<div class="form-group">
+
+							<div class="cols-sm-10">
+								<div class="input-group">
+
+									<input type="password" class="form-control" name="cpassword" id="cpassword"  placeholder="Confirm password"/>
+									<span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+<br>
+<hr>
+</div>
+</div>
+						<div class="form-group">
+
+							<div class="cols-sm-3">
+								<div class="cols-sm-1">
+								<div class="input-group">
+
+									<input type="text" class="form-control" name="name" id="name"  placeholder="First name"/>
+
+
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+<br>
+
+
+                     <div class="form-group">
+
+							<div class="cols-sm-10">
+								<div class="input-group">
+
+									<input type="text" class="form-control" name="last_name" id="last_name"  placeholder="Last name"/>
+									<span class="input-group-addon"><i class="fa fa-user fa" aria-hidden="true"></i></span>
+								</div>
+							</div>
+						</div>
+					
+					<div class="cols-sm-10">
+					<div class="input-group">					<select class="form-control" name="gender" id="gender" placeholder="Gender"> 
+
+					<span class="input-group-addon"><i class="fa fa-globe fa-lg" aria-hidden="true"></i></span>
+
+					<option value="0" selected disabled>Gender</option>
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+
+					</select>
+					</div>
+					</div>
+<br>
+<input type="checkbox" name="agree" value="agree" id="agree"><label style="font-size:14px;">I agree to the Terms of Service</label>
+
+<br>
+<br>
+<input type="checkbox" name="notification" value="notification" id="notification"><label style="font-size:14px;">I want to receive news and special offers</label>
+
+<br><br>
+<input type="submit" name = "submit" value = "submit" class = "submit" onclick="return validate()">
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+<a href="login.php">
+<button type="button">Log In</button> 
+</div>
+					</form>
+				
+<br>
+
+
+
+
+
+<script type="text/javascript" src="bootstrap/dist/js/bootstrap.min.js"></script>
+	</body>
+</html>
+
+
+
+
+

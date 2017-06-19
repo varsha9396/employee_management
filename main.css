@@ -1,0 +1,51 @@
+body, html{
+     height: 100%;
+ 	background-repeat: no-repeat;
+ 	background-color: #57B7AC;
+ 	font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+ 	margin-top: 70px;
+}
+
+.form-group{
+	margin-bottom: 15px;
+}
+.form-group1{
+	margin-bottom: 10px;
+}
+
+#firstname
+{
+width:20%;
+
+}
+
+.main-login{
+ 	background-color:#E3EFED;
+
+}
+
+.main-center{
+ 	margin-top: 30px;
+ 	margin: 0 auto;
+ 	max-width: 400px;
+    padding: 40px 40px;
+
+}
+
+.login-button{
+	margin-top: 5px;
+}
+
+.login-register{
+	font-size: 11px;
+	text-align: center;
+}
+.h12
+{
+float:left;
+
+}
+
